@@ -1,6 +1,5 @@
 ﻿using System;
-
-internal class Model
+public class Model
 {
     public string navn;
     public string beskrivelse;

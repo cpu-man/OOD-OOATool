@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 
 namespace KlasseTest
 {
-    public static class View
+    public class View
     {
         
         static void Model()
         {
         }
 
-        static void List(Oversigt oversigt)
+        public void List(Oversigt oversigt)
         {
-            Console.WriteLine(Oversigt.modeller);
+            foreach (var x in oversigt.modeller)
+            {
+                Console.WriteLine(x.navn);
+            }
+            
         }
     }
 }
