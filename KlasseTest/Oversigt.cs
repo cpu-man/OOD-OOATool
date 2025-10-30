@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-internal class Oversigt
+public class Oversigt
 {
 
     List<Model> modeller = new List<Model>();
 
-    public Oversigt()
-    {
+    
 
-    }
-
-    public void CreateModel()
+    public void AddModels()
     {
         Model usecase = new Model("Sekvensdiagram", "Et eller andet", 3);
         usecase.id = 1;
