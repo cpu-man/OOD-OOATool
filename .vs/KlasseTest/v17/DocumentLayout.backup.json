@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\klassetest\\klassetest\\oversigt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\oversigt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\klassetest\\klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\klassetest\\klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\klassetest\\klassetest\\agurk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\agurk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Agurk.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Agurk.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Agurk.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Agurk.cs",
+              "RelativeToolTip": "KlasseTest\\Agurk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:25:43.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Model.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Model.cs",
+              "RelativeToolTip": "KlasseTest\\Model.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:01:03.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Oversigt.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Oversigt.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Oversigt.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Oversigt.cs",
+              "RelativeToolTip": "KlasseTest\\Oversigt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:00:48.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Program.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\KlasseTest\\KlasseTest\\Program.cs",
+              "RelativeToolTip": "KlasseTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T07:59:56.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
