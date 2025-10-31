@@ -16,7 +16,6 @@ public class Oversigt
         usecase.navn = "Use Case";
         usecase.beskrivelse = "Denne usecase er god";
         modeller.Add(usecase);
-        //Console.WriteLine(usecase);
 
         Model klassediagram = new Model("Sekvensdiagram", "Et eller andet", 3);
         klassediagram.id = 2;
@@ -27,7 +26,6 @@ public class Oversigt
 
         Model sekvensdiagram = new Model("Sekvensdiagram", "Et eller andet", 3);
         modeller.Add(sekvensdiagram);
-        //Console.WriteLine(sekvensdiagram);
     }
 
 }

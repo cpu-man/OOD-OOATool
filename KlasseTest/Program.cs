@@ -7,6 +7,7 @@ public class Program
         //Console.WriteLine("Projekt 3 Anna, Lasse, Matias, Philip & Sidney");
         Oversigt oversigt = new Oversigt();
         oversigt.AddModels();
+        
         View view = new View();
         view.List(oversigt);
         Console.WriteLine();
