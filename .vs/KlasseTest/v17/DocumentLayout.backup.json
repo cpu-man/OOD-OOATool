@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\oversigt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeDocumentMoniker": "KlasseTest\\View.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAABcAAADAzMzMzMwswCgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T11:21:36.691Z",
               "EditorCaption": ""
@@ -69,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeToolTip": "KlasseTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T07:59:56.427Z",
               "EditorCaption": ""

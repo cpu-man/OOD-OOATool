@@ -1,16 +1,14 @@
 ﻿using System;
 public class Model
 {
-    public string navn;
-    public string beskrivelse;
+    public string name;
+    public string description;
     public int id;
-    public Model(string navn, string beskrivelse, int id)
+    public Model(string name, string description, int id)
     {
-        this.navn = navn;
-        this.beskrivelse = beskrivelse;
+        this.name = name;
+        this.description = description;
         this.id = id;
     }
-
-    //switch (knapvalg)
 
 }
