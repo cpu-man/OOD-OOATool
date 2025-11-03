@@ -1,46 +1,62 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KlasseTest
 {
     public class View
     {
-        
-        public void Model(Catalogue catalogue)
+        public void List(Catalogue catalogue)
         {
-            int selection = Convert.ToInt32 (Console.ReadLine());
-            for (int i = 0; i < catalogue.models.Count; i++)
+            Console.Clear();
+            Console.WriteLine("Models");
+            foreach (var m in catalogue.models)
             {
-                if (selection == catalogue.models[i].id)
+                Console.WriteLine($"{m.id}: {m.name}");
+            }
+
+            Console.WriteLine("\n Model Method Blocks");
+            foreach (var block in catalogue.modelBlocks)
+            {
+                block.ShowInfo();
+            }
+
+            Console.WriteLine("\nTransition Method Blocks");
+            foreach (var t in catalogue.transitionBlocks)
+            {
+                t.ShowInfo();
+            }
+
+            Console.WriteLine("\nSelect a model id to view details, or type 'q' to quit:");
+            string input = Console.ReadLine();
+            if (input?.ToLower() == "q") return;
+
+            if (int.TryParse(input, out int selection))
+            {
+                ShowModel(catalogue, selection);
+            }
+        }
+
+        private void ShowModel(Catalogue catalogue, int selection)
+        {
+            foreach (var model in catalogue.models)
+            {
+                if (model.id == selection)
                 {
                     Console.Clear();
-                    Console.WriteLine(catalogue.models[i].name);
-                    Console.WriteLine(catalogue.models[i].description);
+                    Console.WriteLine(model.name);
+                    Console.WriteLine(model.description);
                     Console.WriteLine("\nTryk 'q' for at returnere til oversigten");
                     string quit = Console.ReadLine();
-                    if (quit.ToLower() == "q" )
+                    if (quit?.ToLower() == "q")
                     {
                         List(catalogue);
                     }
+                    return;
                 }
             }
-           
-        }
 
-        public void Catalogue(Catalogue catalogue)
-        {
-            Console.Clear();
-            foreach (var x in catalogue.models)
-            {
-                Console.WriteLine(x.id + " "+ x.name);
-            }
-            Console.WriteLine("\nTast nummeret for at vælge en model, tryk derefter 'Enter' ");
-            Model(catalogue);
-
-
+            Console.WriteLine("Model not found. Press any key to go back.");
+            Console.ReadKey();
+            List(catalogue);
         }
     }
 }

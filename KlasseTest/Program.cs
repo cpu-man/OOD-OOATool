@@ -1,15 +1,21 @@
-﻿using KlasseTest;
+﻿using System;
 
-public class Program
+namespace KlasseTest
 {
-    public static void Main(string[] args)
+    public class Program
     {
-        //Console.WriteLine("Projekt 3 Anna, Lasse, Matias, Philip & Sidney");
-        Catalogue catalogue = new Catalogue();
-        catalogue.AddModels();
-        
-        View view = new View();
-        view.List(catalogue);
-       
+        public static void Main(string[] args)
+        {
+            Catalogue catalogue = new Catalogue();
+            catalogue.AddModels();
+            catalogue.AddMethodBlocks();
+
+            View view = new View();
+            view.List(catalogue);
+
+            Console.WriteLine("\nFinished. Press any key to exit.");
+            Console.ReadKey();
+        }
     }
 }
+

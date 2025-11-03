@@ -1,37 +1,33 @@
-﻿using KlasseTest;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
 
-public class Catalogue
+namespace KlasseTest
 {
-
-   public List<Model> models = new List<Model>();
-    public List<Guide> guides = new List<Guide>();
-    
-
-    public void AddModels()
+    public class Catalogue
     {
-        Model usecase = new Model("Sekvensdiagram", "Et eller andet", 3);
-        usecase.id = 1;
-        usecase.name = "Use Case";
-        usecase.description = "Denne usecase er god";
-        models.Add(usecase);
+        public List<Model> models = new List<Model>();
+        public List<ModelMethodBlock> modelBlocks = new List<ModelMethodBlock>();
+        public List<TransitionMethodBlock> transitionBlocks = new List<TransitionMethodBlock>();
 
-        Model klassediagram = new Model("Sekvensdiagram", "Et eller andet", 3);
-        klassediagram.id = 2;
-        klassediagram.name = "Klassediagram";
-        klassediagram.description = "God dag";
-        models.Add(klassediagram);
+        public void AddModels()
+        {
+            Model usecase = new Model("Use Case", "Denne usecase er god", 1);
+            models.Add(usecase);
 
+            Model klassediagram = new Model("Klassediagram", "God dag", 2);
+            models.Add(klassediagram);
 
-        Model sekvensdiagram = new Model("Sekvensdiagram", "Et eller andet", 3);
-        models.Add(sekvensdiagram);
+            Model sekvensdiagram = new Model("Sekvensdiagram", "Et eller andet", 3);
+            models.Add(sekvensdiagram);
+        }
+
+        //METHOD BLOCKS 
+        public void AddMethodBlocks()
+        {
+            modelBlocks.Add(new ModelMethodBlock("ModelBlock1", "MB1", "Used in model handling"));
+            modelBlocks.Add(new ModelMethodBlock("ModelBlock2", "MB2", "Another model block"));
+
+            transitionBlocks.Add(new TransitionMethodBlock("TransitionBlock1", "TB1", "Handles transitions"));
+        }
     }
-
-    public void AddGuide()
-    {
-
-    }
-
 }
