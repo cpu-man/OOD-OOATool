@@ -27,7 +27,6 @@ public class Catalogue
     public void AddTransition(Model from, Model to, string description)
     {
         Transition transition = new Transition(from, to, description);
-        guides.Add(new List<MethodBlock> { transition });
         transitions.Add(transition);
     }
 

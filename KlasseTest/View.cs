@@ -14,9 +14,10 @@ namespace KlasseTest
             int selection = Convert.ToInt32 (Console.ReadLine());
             for (int i = 0; i < catalogue.models.Count; i++)
             {
+                Console.Clear();
+                Console.WriteLine($"{catalogue.models[i].Id} - {catalogue.models[i].Name}");
                 if (selection == catalogue.models[i].Id)
                 {
-                    Console.Clear();
                     Console.WriteLine(catalogue.models[i].Name);
                     Console.WriteLine(catalogue.models[i].Description);
                     Console.WriteLine("\nTryk 'q' for at returnere til oversigten");
@@ -32,25 +33,33 @@ namespace KlasseTest
         public void DisplayMenu(Catalogue catalogue)
         {
             string input;
+            bool validInput = false; 
             Console.Clear();
-            Console.WriteLine("1 - Catalogue");
-            Console.WriteLine("2 - Guides");
-            input = Console.ReadLine();
-            switch (input)
+            Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
+            do
             {
-                case "1":
-                    DisplayCatalogue(catalogue);
-                    break;
+                Console.WriteLine("1 - Catalogue");
+                Console.WriteLine("2 - Guides");
+                input = Console.ReadLine();
+                switch (input)
+                {
+                    case "1":
+                        DisplayCatalogue(catalogue);
+                        break;
 
-                case "2":
-                    DisplayMethods(catalogue);
-                    break;
+                    /*case "2":
+                        DisplayMethods(catalogue);
+                        break;*/
 
-                default:
-                    Console.WriteLine("Invalid Input!");
+                    default:
+                        Console.WriteLine("Invalid Input!");
+                        validInput = false;
+                        break;
+                        
 
-                
-            }
+                }
+            } while (!validInput);
+
 
 
         }

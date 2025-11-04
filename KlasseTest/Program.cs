@@ -9,7 +9,7 @@ public class Program
         catalogue.AddModels();
         
         View view = new View();
-        view.Catalogue(catalogue);
+        view.DisplayMenu(catalogue);
        
     }
 }
