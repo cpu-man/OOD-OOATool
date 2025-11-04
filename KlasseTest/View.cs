@@ -54,6 +54,24 @@ namespace KlasseTest
 
 
         }
+        //Philips metode til at vise guides i konsollen
+        public void DisplayModels(Catalogue catalogue)
+        {
+            Console.Clear();
+            Console.WriteLine("Models:\n");
+            for (int i = 0; i < catalogue.models.Count; i++)
+            {
+                Console.WriteLine($"{catalogue.models[i].Id} - {catalogue.models[i].Name}");
+            }
+            Console.WriteLine("\nSelect a model by entering its ID:");
+        }
+        //Philips metode til at vise guides i konsollen
+        public void DisplayModel(Model model)
+        {
+            Console.Clear();
+            Console.WriteLine(model.Name);
+            Console.WriteLine(model.Description);
+        }
 
         public void MenúSelection()
         {
