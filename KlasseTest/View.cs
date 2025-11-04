@@ -9,7 +9,7 @@ namespace KlasseTest
     public class View
     {
         
-        public void Model(Catalogue catalogue)
+        public void DisplayCatalogue(Catalogue catalogue)
         {
             int selection = Convert.ToInt32 (Console.ReadLine());
             for (int i = 0; i < catalogue.models.Count; i++)
@@ -23,23 +23,40 @@ namespace KlasseTest
                     string quit = Console.ReadLine();
                     if (quit.ToLower() == "q" )
                     {
-                        Catalogue(catalogue);
+                        DisplayCatalogue(catalogue);
                     }
                 }
             }
            
         }
-
-        public void Catalogue(Catalogue catalogue)
+        public void DisplayMenu(Catalogue catalogue)
         {
+            string input;
             Console.Clear();
-            foreach (var x in catalogue.models)
+            Console.WriteLine("1 - Catalogue");
+            Console.WriteLine("2 - Guides");
+            input = Console.ReadLine();
+            switch (input)
             {
-                Console.WriteLine(x.Id + " "+ x.Name);
-            }
-            Console.WriteLine("\nTast nummeret for at vælge en model, tryk derefter 'Enter' ");
-            Model(catalogue);
+                case "1":
+                    DisplayCatalogue(catalogue);
+                    break;
 
+                case "2":
+                    DisplayMethods(catalogue);
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid Input!");
+
+                
+            }
+
+
+        }
+
+        public void MenúSelection()
+        {
 
         }
     }
