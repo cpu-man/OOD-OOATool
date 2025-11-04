@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
+              "RelativeToolTip": "KlasseTest\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:01:03.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Catalogue.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Catalogue.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
+              "RelativeToolTip": "KlasseTest\\Catalogue.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:00:48.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transition.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Transition.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Transition.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Transition.cs",
+              "RelativeToolTip": "KlasseTest\\Transition.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T09:13:04.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Guide.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Guide.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Guide.cs",
@@ -47,44 +94,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "MethodBlock.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\MethodBlock.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
+              "RelativeToolTip": "KlasseTest\\MethodBlock.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T09:19:03.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeDocumentMoniker": "KlasseTest\\View.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAASwCUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T11:21:36.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Model.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
-              "RelativeToolTip": "KlasseTest\\Model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:01:03.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Catalogue.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Catalogue.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
-              "RelativeToolTip": "KlasseTest\\Catalogue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:00:48.658Z",
+              "WhenOpened": "2025-10-30T11:21:36.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
