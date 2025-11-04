@@ -9,6 +9,6 @@ namespace KlasseTest
     public class Guide
     {
         string name;
-        //Queue<>
+        
     }
 }

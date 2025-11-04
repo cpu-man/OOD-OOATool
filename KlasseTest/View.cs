@@ -23,7 +23,7 @@ namespace KlasseTest
                     string quit = Console.ReadLine();
                     if (quit.ToLower() == "q" )
                     {
-                        List(catalogue);
+                        Catalogue(catalogue);
                     }
                 }
             }
