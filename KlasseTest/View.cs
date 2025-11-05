@@ -59,5 +59,28 @@ namespace KlasseTest
         {
 
         }
+
+
+        public void DisplayMethods(catalogue)
+        {
+            Console.Clear();
+            Console.WriteLine("Liste over metoder");
+
+            for (int i = 0; i < catalogue.methodList; Count; i++)
+            {
+                for (int j = 0; j < catalogue.methodList[i]; Count, j++)
+
+                {
+
+                    Console.WriteLine(catalogue.methodList[i][j].Name)
+                }
+               
+            }
+
+
+        }
+
+
+
     }
 }

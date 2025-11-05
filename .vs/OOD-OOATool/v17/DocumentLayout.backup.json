@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\View.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\View.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\Catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\View.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\View.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Catalogue.cs",
-              "DocumentMoniker": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Catalogue.cs",
-              "ToolTip": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
-              "RelativeToolTip": "KlasseTest\\Catalogue.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T19:11:02.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
               "ToolTip": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeToolTip": "KlasseTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:04:33.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeDocumentMoniker": "KlasseTest\\View.cs",
               "ToolTip": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T19:01:23.75Z",
               "EditorCaption": ""
