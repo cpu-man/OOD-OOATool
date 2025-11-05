@@ -6,7 +6,7 @@ using System.Reflection;
 public class Catalogue
 {
 
-   public List<Model> models = new List<Model>();
+   public List<Model> modelList = new List<Model>();
     public List<Guide> guides = new List<Guide>();
     public List<Transition> transitions = new List<Transition>();
 
@@ -27,7 +27,6 @@ public class Catalogue
     public void AddTransition(Model from, Model to, string description)
     {
         Transition transition = new Transition(from, to, description);
-        guides.Add(new List<MethodBlock> { transition });
         transitions.Add(transition);
     }
 

@@ -12,13 +12,14 @@ namespace KlasseTest
         public void DisplayCatalogue(Catalogue catalogue)
         {
             int selection = Convert.ToInt32 (Console.ReadLine());
-            for (int i = 0; i < catalogue.models.Count; i++)
+            for (int i = 0; i < catalogue.modelList.Count; i++)
             {
-                if (selection == catalogue.models[i].Id)
+                Console.Clear();
+                Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
+                if (selection == catalogue.modelList[i].Id)
                 {
-                    Console.Clear();
-                    Console.WriteLine(catalogue.models[i].Name);
-                    Console.WriteLine(catalogue.models[i].Description);
+                    Console.WriteLine(catalogue.modelList[i].Name);
+                    Console.WriteLine(catalogue.modelList[i].Description);
                     Console.WriteLine("\nTryk 'q' for at returnere til oversigten");
                     string quit = Console.ReadLine();
                     if (quit.ToLower() == "q" )
@@ -32,25 +33,33 @@ namespace KlasseTest
         public void DisplayMenu(Catalogue catalogue)
         {
             string input;
+            bool validInput = false; 
             Console.Clear();
-            Console.WriteLine("1 - Catalogue");
-            Console.WriteLine("2 - Guides");
-            input = Console.ReadLine();
-            switch (input)
+            Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
+            do
             {
-                case "1":
-                    DisplayCatalogue(catalogue);
-                    break;
+                Console.WriteLine("1 - Catalogue");
+                Console.WriteLine("2 - Guides");
+                input = Console.ReadLine();
+                switch (input)
+                {
+                    case "1":
+                        DisplayCatalogue(catalogue);
+                        break;
 
-                case "2":
-                    DisplayMethods(catalogue);
-                    break;
+                    /*case "2":
+                        DisplayMethods(catalogue);
+                        break;*/
 
-                default:
-                    Console.WriteLine("Invalid Input!");
+                    default:
+                        Console.WriteLine("Invalid Input!");
+                        validInput = false;
+                        break;
+                        
 
-                
-            }
+                }
+            } while (!validInput);
+
 
 
         }
