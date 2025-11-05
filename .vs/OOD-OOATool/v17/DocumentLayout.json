@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\View.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\Transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KlasseTest\\Model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transition.cs",
+              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Transition.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\Transition.cs",
+              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Transition.cs",
+              "RelativeToolTip": "KlasseTest\\Transition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:22:59.846Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "KlasseTest\\View.cs",
               "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAswEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswE4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T12:46:08.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Model.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
@@ -52,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MethodBlock.cs",
               "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
               "RelativeDocumentMoniker": "KlasseTest\\MethodBlock.cs",
@@ -60,8 +77,7 @@
               "RelativeToolTip": "KlasseTest\\MethodBlock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T12:46:04.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T12:46:04.412Z"
             }
           ]
         }

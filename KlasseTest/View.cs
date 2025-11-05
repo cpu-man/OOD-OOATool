@@ -65,7 +65,7 @@ namespace KlasseTest
             }
             Console.WriteLine("\nSelect a model by entering its ID:");
         }
-        //Philips metode til at vise guides i konsollen
+        //Philips metode til at vise modeller i konsollen
         public void DisplayModel(Model model)
         {
             Console.Clear();
