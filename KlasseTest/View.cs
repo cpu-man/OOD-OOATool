@@ -34,8 +34,6 @@ namespace KlasseTest
         {
             string input;
             bool validInput = false; 
-            Console.Clear();
-            Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
             do
             {
                 Console.WriteLine("1 - Catalogue");
@@ -44,7 +42,7 @@ namespace KlasseTest
                 switch (input)
                 {
                     case "1":
-                        DisplayCatalogue(catalogue);
+                        DisplayModels(catalogue);
                         break;
 
                     case "2":
@@ -58,7 +56,7 @@ namespace KlasseTest
                         
 
                 }
-            } while (!validInput);
+            } while (validInput);
 
 
 
@@ -73,6 +71,29 @@ namespace KlasseTest
                 Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
             }
             Console.WriteLine("\nSelect a model by entering its ID:");
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "1":
+                    DisplayModel(catalogue.modelList[0]);
+                    break;
+
+                case "2":
+                    DisplayModel(catalogue.modelList[1]);
+                    break;
+
+                case "3":
+                    DisplayModel(catalogue.modelList[2]);
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid Input! Try Again");
+                    //validInput = false;
+                    break;
+
+
+            }
         }
         //Philips metode til at vise modeller i konsollen
         public void DisplayModel(Model model)
@@ -86,21 +107,23 @@ namespace KlasseTest
         {
             Console.Clear();
             Console.WriteLine("Liste over metoder");
-
-            for (int i = 0; i < catalogue.methodList.Count; i++)
-            {
-                for (int j = 0; j < catalogue.methodList[i].Count; j++)
-
-                {
-
-                    Console.WriteLine(catalogue.methodList[i][j].Name);
-                }
-               
-            }
-
+            Console.WriteLine("1 - UML");
+            Console.WriteLine("2 - Metode 2");
+            Console.WriteLine("3 - Metode 3");
+            
 
         }
 
+        public void DisplayMethod()
+        {
+            Console.Clear();
+            Console.WriteLine("1 - Use Case");
+            Console.WriteLine("2 - Use Case-Klassediagram");
+            Console.WriteLine("3 - Klassediagram");
+            Console.WriteLine("4 - Klassediagram-Sekvensdiagram");
+            Console.WriteLine("5 - Sekvensdiagram");
+
+        }
 
 
     }

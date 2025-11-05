@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -48,20 +48,20 @@
               "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
               "RelativeToolTip": "KlasseTest\\Model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T08:01:03.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Catalogue.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Catalogue.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
               "RelativeToolTip": "KlasseTest\\Catalogue.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T08:00:48.658Z",
               "EditorCaption": ""
@@ -74,14 +74,27 @@
               "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeToolTip": "KlasseTest\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T07:59:56.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
+              "RelativeDocumentMoniker": "KlasseTest\\View.cs",
+              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
+              "RelativeToolTip": "KlasseTest\\View.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:21:36.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Transition.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Transition.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Transition.cs",
@@ -89,8 +102,7 @@
               "RelativeToolTip": "KlasseTest\\Transition.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T09:13:04.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T09:13:04.566Z"
             },
             {
               "$type": "Document",
@@ -102,21 +114,7 @@
               "RelativeToolTip": "KlasseTest\\Guide.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T12:01:11.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "View.cs",
-              "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\View.cs",
-              "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
-              "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T11:21:36.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T12:01:11.869Z"
             },
             {
               "$type": "Document",
@@ -126,7 +124,7 @@
               "RelativeDocumentMoniker": "KlasseTest\\MethodBlock.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
               "RelativeToolTip": "KlasseTest\\MethodBlock.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T09:19:03.252Z",
               "EditorCaption": ""

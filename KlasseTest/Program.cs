@@ -8,11 +8,12 @@ namespace KlasseTest
     {
         public static void Main(string[] args)
         {
-
+            Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
+            
             //Console.WriteLine("Projekt 3 Anna, Lasse, Matias, Philip & Sidney");
             Catalogue catalogue = new Catalogue();
+            
 
-            //public List<Model> modelList = new List<Model>();
             Model usecase = new Model("Use Case", "Hejsa", 1);
         catalogue.modelList.Add(usecase);
 
@@ -21,9 +22,19 @@ namespace KlasseTest
 
             Model sekvensdiagram = new Model("Sekvensdiagram", "Et eller andet", 3);
         catalogue.modelList.Add(sekvensdiagram);
+            
+            List<MethodBlock> metode2 = new List<MethodBlock>();
+            List<MethodBlock> metode3 = new List<MethodBlock>();
+            List<MethodBlock> uml = new List<MethodBlock>() { usecase, klassediagram, sekvensdiagram };
+            catalogue.methodList.Add(uml);
+            catalogue.methodList.Add(metode2);
+            catalogue.methodList.Add(metode3);
+
+          
 
             Transition transition = new Transition(usecase, klassediagram, "hej");
             Transition transition2 = new Transition(klassediagram, sekvensdiagram, "hejsaa");
+
 
             View view = new View();
         view.DisplayMenu(catalogue);
