@@ -47,12 +47,12 @@ namespace KlasseTest
                         DisplayCatalogue(catalogue);
                         break;
 
-                    /*case "2":
+                    case "2":
                         DisplayMethods(catalogue);
-                        break;*/
+                        break;
 
                     default:
-                        Console.WriteLine("Invalid Input!");
+                        Console.WriteLine("Invalid Input! Try Again");
                         validInput = false;
                         break;
                         
@@ -68,9 +68,9 @@ namespace KlasseTest
         {
             Console.Clear();
             Console.WriteLine("Models:\n");
-            for (int i = 0; i < catalogue.models.Count; i++)
+            for (int i = 0; i < catalogue.modelList.Count; i++)
             {
-                Console.WriteLine($"{catalogue.models[i].Id} - {catalogue.models[i].Name}");
+                Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
             }
             Console.WriteLine("\nSelect a model by entering its ID:");
         }
@@ -82,24 +82,18 @@ namespace KlasseTest
             Console.WriteLine(model.Description);
         }
 
-        public void MenúSelection()
-        {
-
-        }
-
-
-        public void DisplayMethods(catalogue)
+        public void DisplayMethods(Catalogue catalogue)
         {
             Console.Clear();
             Console.WriteLine("Liste over metoder");
 
-            for (int i = 0; i < catalogue.methodList; Count; i++)
+            for (int i = 0; i < catalogue.methodList.Count; i++)
             {
-                for (int j = 0; j < catalogue.methodList[i]; Count, j++)
+                for (int j = 0; j < catalogue.methodList[i].Count; j++)
 
                 {
 
-                    Console.WriteLine(catalogue.methodList[i][j].Name)
+                    Console.WriteLine(catalogue.methodList[i][j].Name);
                 }
                
             }
