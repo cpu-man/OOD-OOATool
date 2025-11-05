@@ -12,14 +12,14 @@ namespace KlasseTest
         public void DisplayCatalogue(Catalogue catalogue)
         {
             int selection = Convert.ToInt32 (Console.ReadLine());
-            for (int i = 0; i < catalogue.models.Count; i++)
+            for (int i = 0; i < catalogue.modelList.Count; i++)
             {
                 Console.Clear();
-                Console.WriteLine($"{catalogue.models[i].Id} - {catalogue.models[i].Name}");
-                if (selection == catalogue.models[i].Id)
+                Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
+                if (selection == catalogue.modelList[i].Id)
                 {
-                    Console.WriteLine(catalogue.models[i].Name);
-                    Console.WriteLine(catalogue.models[i].Description);
+                    Console.WriteLine(catalogue.modelList[i].Name);
+                    Console.WriteLine(catalogue.modelList[i].Description);
                     Console.WriteLine("\nTryk 'q' for at returnere til oversigten");
                     string quit = Console.ReadLine();
                     if (quit.ToLower() == "q" )
