@@ -34,7 +34,8 @@ namespace KlasseTest
 
             Transition transition = new Transition(usecase, klassediagram, "hej");
             Transition transition2 = new Transition(klassediagram, sekvensdiagram, "hejsaa");
-
+            catalogue.transitionList.Add(transition);
+            catalogue.transitionList.Add(transition2);
 
             View view = new View();
         view.DisplayMenu(catalogue);

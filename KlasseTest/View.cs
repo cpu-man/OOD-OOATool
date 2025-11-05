@@ -8,28 +8,7 @@ namespace KlasseTest
 {
     public class View
     {
-        
-        public void DisplayCatalogue(Catalogue catalogue)
-        {
-            int selection = Convert.ToInt32 (Console.ReadLine());
-            for (int i = 0; i < catalogue.modelList.Count; i++)
-            {
-                Console.Clear();
-                Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
-                if (selection == catalogue.modelList[i].Id)
-                {
-                    Console.WriteLine(catalogue.modelList[i].Name);
-                    Console.WriteLine(catalogue.modelList[i].Description);
-                    Console.WriteLine("\nTryk 'q' for at returnere til oversigten");
-                    string quit = Console.ReadLine();
-                    if (quit.ToLower() == "q" )
-                    {
-                        DisplayCatalogue(catalogue);
-                    }
-                }
-            }
-           
-        }
+        int count;
         public void DisplayMenu(Catalogue catalogue)
         {
             string input;
@@ -76,15 +55,15 @@ namespace KlasseTest
             switch (input)
             {
                 case "1":
-                    DisplayModel(catalogue.modelList[0]);
+                    DisplayBlock(catalogue.modelList[0]);
                     break;
 
                 case "2":
-                    DisplayModel(catalogue.modelList[1]);
+                    DisplayBlock(catalogue.modelList[1]);
                     break;
 
                 case "3":
-                    DisplayModel(catalogue.modelList[2]);
+                    DisplayBlock(catalogue.modelList[2]);
                     break;
 
                 default:
@@ -96,25 +75,38 @@ namespace KlasseTest
             }
         }
         //Philips metode til at vise modeller i konsollen
-        public void DisplayModel(Model model)
+        public void DisplayBlock(MethodBlock block)
         {
             Console.Clear();
-            Console.WriteLine(model.Name);
-            Console.WriteLine(model.Description);
+            Console.WriteLine(block.Name);
+            Console.WriteLine(block.Description);
         }
 
         public void DisplayMethods(Catalogue catalogue)
         {
+            count++;
             Console.Clear();
             Console.WriteLine("Liste over metoder");
             Console.WriteLine("1 - UML");
             Console.WriteLine("2 - Metode 2");
             Console.WriteLine("3 - Metode 3");
-            
+            if (count > 1)
+            {
+                Console.WriteLine("Invalid Input! Try 1 instead");
+            }
+            string input = Console.ReadLine();
+            if (input == "1")
+            {
+                DisplayMethod(catalogue);
+            }
+            else
+            {
+                DisplayMethods(catalogue);
+            }
 
         }
 
-        public void DisplayMethod()
+        public void DisplayMethod(Catalogue catalogue)
         {
             Console.Clear();
             Console.WriteLine("1 - Use Case");
@@ -122,6 +114,35 @@ namespace KlasseTest
             Console.WriteLine("3 - Klassediagram");
             Console.WriteLine("4 - Klassediagram-Sekvensdiagram");
             Console.WriteLine("5 - Sekvensdiagram");
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "1":
+                    DisplayBlock(catalogue.modelList[0]);
+                    break;
+
+                case "2":
+                    DisplayBlock(catalogue.transitionList[0]);
+                    break;
+
+                case "3":
+                    DisplayBlock(catalogue.modelList[1]);
+                    break;
+
+                case "4":
+                    DisplayBlock(catalogue.transitionList[1]);
+                    break;
+
+                case "5":
+                    DisplayBlock(catalogue.modelList[2]);
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid Input! Try Again");
+                    //validInput = false;
+                    break;
+            }
 
         }
 
