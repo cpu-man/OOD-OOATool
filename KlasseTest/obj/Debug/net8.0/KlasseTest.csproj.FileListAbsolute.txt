@@ -35,3 +35,10 @@ C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\obj\Debug\net8.0\KlasseTe
 C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\obj\Debug\net8.0\KlasseTest.dll
 C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\obj\Debug\net8.0\refint\KlasseTest.dll
 C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\obj\Debug\net8.0\KlasseTest.pdb
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\bin\Debug\net8.0\KlasseTest.exe
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\bin\Debug\net8.0\KlasseTest.deps.json
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\bin\Debug\net8.0\KlasseTest.runtimeconfig.json
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\bin\Debug\net8.0\KlasseTest.dll
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\bin\Debug\net8.0\KlasseTest.pdb
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\obj\Debug\net8.0\KlasseTest.genruntimeconfig.cache
+C:\Users\bryde\Documents\GitHub\OOD-OOATool\KlasseTest\obj\Debug\net8.0\ref\KlasseTest.dll
