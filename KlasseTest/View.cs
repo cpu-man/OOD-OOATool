@@ -15,14 +15,13 @@ namespace KlasseTest
             Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
             string input;
             while (true)
-            //bool validInput = false; 
-            //do
+          
             {
                 Console.WriteLine("1 - Catalogue");
                 Console.WriteLine("2 - Guides");
-               Console.WriteLine("q - Quit"); //Anna
+               Console.WriteLine("q - Quit"); 
                 input = Console.ReadLine();
-                if (input == "q") break; //Anna
+                if (input == "q") break; 
                 switch (input)
                 {
                     case "1":
@@ -35,32 +34,32 @@ namespace KlasseTest
 
                     default:
                         Console.WriteLine("Invalid Input! Try Again");
-                        //validInput = false;
+                     
                         break;
                         
 
                 }
-            } //while (validInput);
+            } 
 
 
 
         }
-        //Philips metode til at vise guides i konsollen
+        //Metoder der viser en oversigt af modeller i kataloget
         public void DisplayModels(Catalogue catalogue)
         {
             Console.Clear();
             Console.WriteLine("Models:\n");
-            for (int i = 0; i < catalogue.modelList.Count; i++)
+            for (int i = 0; i < catalogue.modelList.Count; i++) //Forløkke der tæller og udskriver listen af modeller
             {
                 Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
             }
-            Console.WriteLine("\nSelect a model by entering its ID or select m for menu"); //Anna
+            Console.WriteLine("\nSelect a model by entering its ID or select m for menu"); 
             string input = Console.ReadLine();
 
-            switch (input)
+            switch (input) //En switch der lader brugeren vælge en specifik model
             {
                 case "1":
-                    DisplayBlock(catalogue.modelList[0], catalogue);
+                    DisplayBlock(catalogue.modelList[0], catalogue); //Går ind i listen modelList
                     break;
 
                 case "2":
@@ -72,20 +71,18 @@ namespace KlasseTest
                     break;
 
                 case "m":
-                    Console.Clear(); //Anna
-                    //DisplayMenu(catalogue);
-                    return;
+                    Console.Clear();                
+                    return;  //Returnerer til hovedmenu
                     
 
                 default:
                     Console.WriteLine("Invalid Input! Try Again");
-                    //validInput = false;
                     break;
 
 
             }
         }
-        //Philips metode til at vise modeller i konsollen
+        
         public void DisplayBlock(MethodBlock block, Catalogue catalogue)
         {
             Console.Clear();
@@ -98,7 +95,7 @@ namespace KlasseTest
             string input = Console.ReadLine();
             if (input == "r") 
             {
-                Console.Clear(); //Anna
+                Console.Clear(); 
                 
                 DisplayModels(catalogue);
 
@@ -124,7 +121,7 @@ namespace KlasseTest
             {
                 DisplayMethod(catalogue);
             }
-            if (input == "m") //Anna
+            if (input == "m") 
             {
                 Console.Clear();
                 return; 
@@ -145,7 +142,7 @@ namespace KlasseTest
             Console.WriteLine("4 - Klassediagram-Sekvensdiagram");
             Console.WriteLine("5 - Sekvensdiagram");
             Console.WriteLine("");
-            Console.WriteLine("r for return"); //Anna
+            Console.WriteLine("r for return"); 
             string input = Console.ReadLine();
 
             switch (input)
@@ -173,12 +170,11 @@ namespace KlasseTest
                 case "r":
                     Console.Clear();
                     DisplayMethods(catalogue);
-                    return; //Anna
+                    return; 
                     
 
                 default:
                     Console.WriteLine("Invalid Input! Try Again");
-                    //validInput = false;
                     break;
             }
 

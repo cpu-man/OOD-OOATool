@@ -8,8 +8,7 @@ namespace KlasseTest
     {
         public static void Main(string[] args)
         {
-           // Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
-            
+          
             //Console.WriteLine("Projekt 3 Anna, Lasse, Matias, Philip & Sidney");
             Catalogue catalogue = new Catalogue();
             
