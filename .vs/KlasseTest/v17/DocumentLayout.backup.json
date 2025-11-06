@@ -1,39 +1,11 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
-  "WorkspaceRootPath": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\bryde\\documents\\github\\ood-ooatool\\klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
   "WorkspaceRootPath": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\annav\\source\\repos\\anmi9\\ood-ooatool\\klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +15,7 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\catalogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,12 +23,31 @@
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\annav\\source\\repos\\anmi9\\ood-ooatool\\klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\annav\\source\\repos\\anmi9\\ood-ooatool\\klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\guide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\sidne\\source\\repos\\ood-ooatool\\klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\methodblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\annav\\source\\repos\\anmi9\\ood-ooatool\\klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|c:\\users\\annav\\source\\repos\\anmi9\\ood-ooatool\\klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8E3CB1-13B5-4346-9D11-CB42EE7A8EDB}|KlasseTest\\KlasseTest.csproj|solutionrelative:klassetest\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
 >>>>>>> Stashed changes
     }
   ],
@@ -66,11 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 4,
-=======
           "SelectedChildIndex": 3,
->>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,15 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Model.cs",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Model.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Model.cs",
-=======
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Model.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Model.cs",
->>>>>>> Stashed changes
               "RelativeToolTip": "KlasseTest\\Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,15 +80,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Program.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Program.cs",
-=======
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Program.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Program.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Program.cs",
->>>>>>> Stashed changes
               "RelativeToolTip": "KlasseTest\\Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -116,38 +92,27 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "View.cs",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\View.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\View.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\View.cs",
-              "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAABJAAAAAAAAAA==",
-=======
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeDocumentMoniker": "KlasseTest\\View.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\View.cs",
               "RelativeToolTip": "KlasseTest\\View.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAAALAAAABFAAAAAAAAAA==",
+<<<<<<< Updated upstream
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAABJAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAAA8AAABcAAAAAAAAAA==",
 >>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T11:21:36.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T11:21:36.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Catalogue.cs",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Catalogue.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
-=======
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Catalogue.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Catalogue.cs",
->>>>>>> Stashed changes
               "RelativeToolTip": "KlasseTest\\Catalogue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T08:00:48.658Z"
             },
@@ -155,54 +120,41 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Transition.cs",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Transition.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\Transition.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Transition.cs",
-=======
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Transition.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Transition.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\Transition.cs",
->>>>>>> Stashed changes
               "RelativeToolTip": "KlasseTest\\Transition.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T09:13:04.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T09:13:04.566Z"
             },
             {
               "$type": "Document",
 <<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "Guide.cs",
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Guide.cs",
+              "DocumentMoniker": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Guide.cs",
               "RelativeDocumentMoniker": "KlasseTest\\Guide.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\Guide.cs",
+              "ToolTip": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\Guide.cs",
               "RelativeToolTip": "KlasseTest\\Guide.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T12:01:11.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T12:01:11.869Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MethodBlock.cs",
-              "DocumentMoniker": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
-              "RelativeDocumentMoniker": "KlasseTest\\MethodBlock.cs",
-              "ToolTip": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
 =======
               "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "MethodBlock.cs",
               "DocumentMoniker": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
               "RelativeDocumentMoniker": "KlasseTest\\MethodBlock.cs",
               "ToolTip": "C:\\Users\\sidne\\source\\repos\\OOD-OOATool\\KlasseTest\\MethodBlock.cs",
->>>>>>> Stashed changes
               "RelativeToolTip": "KlasseTest\\MethodBlock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T09:19:03.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T09:19:03.252Z"
             }
           ]
         }
