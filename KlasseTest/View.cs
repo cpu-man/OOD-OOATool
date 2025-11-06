@@ -11,13 +11,18 @@ namespace KlasseTest
         int count;
         public void DisplayMenu(Catalogue catalogue)
         {
+            Console.Clear();
+            Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
             string input;
-            bool validInput = false; 
-            do
+            while (true)
+            //bool validInput = false; 
+            //do
             {
                 Console.WriteLine("1 - Catalogue");
                 Console.WriteLine("2 - Guides");
+               Console.WriteLine("q - Quit"); //Anna
                 input = Console.ReadLine();
+                if (input == "q") break; //Anna
                 switch (input)
                 {
                     case "1":
@@ -30,12 +35,12 @@ namespace KlasseTest
 
                     default:
                         Console.WriteLine("Invalid Input! Try Again");
-                        validInput = false;
+                        //validInput = false;
                         break;
                         
 
                 }
-            } while (validInput);
+            } //while (validInput);
 
 
 
@@ -49,22 +54,28 @@ namespace KlasseTest
             {
                 Console.WriteLine($"{catalogue.modelList[i].Id} - {catalogue.modelList[i].Name}");
             }
-            Console.WriteLine("\nSelect a model by entering its ID:");
+            Console.WriteLine("\nSelect a model by entering its ID or select m for menu"); //Anna
             string input = Console.ReadLine();
 
             switch (input)
             {
                 case "1":
-                    DisplayBlock(catalogue.modelList[0]);
+                    DisplayBlock(catalogue.modelList[0], catalogue);
                     break;
 
                 case "2":
-                    DisplayBlock(catalogue.modelList[1]);
+                    DisplayBlock(catalogue.modelList[1], catalogue);
                     break;
 
                 case "3":
-                    DisplayBlock(catalogue.modelList[2]);
+                    DisplayBlock(catalogue.modelList[2], catalogue);
                     break;
+
+                case "m":
+                    Console.Clear(); //Anna
+                    //DisplayMenu(catalogue);
+                    return;
+                    
 
                 default:
                     Console.WriteLine("Invalid Input! Try Again");
@@ -75,12 +86,25 @@ namespace KlasseTest
             }
         }
         //Philips metode til at vise modeller i konsollen
-        public void DisplayBlock(MethodBlock block)
+        public void DisplayBlock(MethodBlock block, Catalogue catalogue)
         {
             Console.Clear();
             Console.WriteLine(block.Name);
             Console.WriteLine(block.Description);
+            Console.WriteLine("");
+            Console.WriteLine("r for return");
+
+            
+            string input = Console.ReadLine();
+            if (input == "r") 
+            {
+                Console.Clear(); //Anna
+                
+                DisplayModels(catalogue);
+
+            }
         }
+
 
         public void DisplayMethods(Catalogue catalogue)
         {
@@ -90,6 +114,7 @@ namespace KlasseTest
             Console.WriteLine("1 - UML");
             Console.WriteLine("2 - Metode 2");
             Console.WriteLine("3 - Metode 3");
+            Console.WriteLine("m for menu");
             if (count > 1)
             {
                 Console.WriteLine("Invalid Input! Try 1 instead");
@@ -98,6 +123,11 @@ namespace KlasseTest
             if (input == "1")
             {
                 DisplayMethod(catalogue);
+            }
+            if (input == "m") //Anna
+            {
+                Console.Clear();
+                return; 
             }
             else
             {
@@ -114,29 +144,37 @@ namespace KlasseTest
             Console.WriteLine("3 - Klassediagram");
             Console.WriteLine("4 - Klassediagram-Sekvensdiagram");
             Console.WriteLine("5 - Sekvensdiagram");
+            Console.WriteLine("");
+            Console.WriteLine("r for return"); //Anna
             string input = Console.ReadLine();
 
             switch (input)
             {
                 case "1":
-                    DisplayBlock(catalogue.modelList[0]);
+                    DisplayBlock(catalogue.modelList[0], catalogue);
                     break;
 
                 case "2":
-                    DisplayBlock(catalogue.transitionList[0]);
+                    DisplayBlock(catalogue.transitionList[0], catalogue);
                     break;
 
                 case "3":
-                    DisplayBlock(catalogue.modelList[1]);
+                    DisplayBlock(catalogue.modelList[1], catalogue);
                     break;
 
                 case "4":
-                    DisplayBlock(catalogue.transitionList[1]);
+                    DisplayBlock(catalogue.transitionList[1], catalogue);
                     break;
 
                 case "5":
-                    DisplayBlock(catalogue.modelList[2]);
+                    DisplayBlock(catalogue.modelList[2], catalogue);
                     break;
+
+                case "r":
+                    Console.Clear();
+                    DisplayMethods(catalogue);
+                    return; //Anna
+                    
 
                 default:
                     Console.WriteLine("Invalid Input! Try Again");
