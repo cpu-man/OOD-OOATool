@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj": {}
+    "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj": {
+    "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj",
+        "projectUniqueName": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj",
         "projectName": "KlasseTest",
-        "projectPath": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj",
-        "packagesPath": "C:\\Users\\bryde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bryde\\Documents\\GitHub\\OOD-OOATool\\KlasseTest\\obj\\",
+        "projectPath": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\KlasseTest.csproj",
+        "packagesPath": "C:\\Users\\AnnaV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AnnaV\\source\\repos\\Anmi9\\OOD-OOATool\\KlasseTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bryde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnnaV\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
