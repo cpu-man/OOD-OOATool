@@ -13,17 +13,6 @@ namespace KlasseTest
         {
             Console.Clear();
             Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
-<<<<<<< Updated upstream
-            string input;
-            while (true)
-          
-            {
-                Console.WriteLine("1 - Catalogue");
-                Console.WriteLine("2 - Guides");
-               Console.WriteLine("q - Quit"); 
-                input = Console.ReadLine();
-                if (input == "q") break; 
-=======
             string input; //string variabel oprettes og gemmes i RAM, indeholder intet endnu
             while (true) //while løkke som kører så længe man default case kører
             {
@@ -32,7 +21,6 @@ namespace KlasseTest
                Console.WriteLine("q - Quit");
                 input = Console.ReadLine(); //Brugerens input bliver lagt ind i 'input' variabelen
                 if (input == "q") break; //Hvis brugeren skriver "q" stopper programmet
->>>>>>> Stashed changes
                 switch (input)
                 {
                     case "1":
@@ -44,15 +32,8 @@ namespace KlasseTest
                         break;
 
                     default:
-<<<<<<< Updated upstream
-                        Console.WriteLine("Invalid Input! Try Again");
-                     
-=======
                         Console.WriteLine("Invalid Input! Try Again"); //Hvis brugeren skriver noget andet end 1, 2 eller q får de denne besked og løkken bliver ved med at køre                       
->>>>>>> Stashed changes
                         break;
-                        
-
                 }
             } 
 
@@ -158,11 +139,7 @@ namespace KlasseTest
             Console.WriteLine("5 - Sekvensdiagram");
             Console.WriteLine("");
             Console.WriteLine("r for return"); 
-<<<<<<< Updated upstream
-            string input = Console.ReadLine();
-=======
             string input = Console.ReadLine(); //Brugerens input bliver lagt ind i 'input' variabelen
->>>>>>> Stashed changes
 
             switch (input)
             {
@@ -188,22 +165,13 @@ namespace KlasseTest
 
                 case "r":
                     Console.Clear();
-                    DisplayMethods(catalogue);
-<<<<<<< Updated upstream
+                    DisplayMethods(catalogue);//Går tilbage til DisplayMethods metoden når brugerens input er "r"
                     return; 
                     
 
                 default:
-                    Console.WriteLine("Invalid Input! Try Again");
-                    break;
-=======
-                    return; //Går tilbage til DisplayMethods metoden når brugerens input er "r"
-                    
-
-                default:
                     Console.WriteLine("Invalid Input! Try Again"); //Giver en fejlbesked og starter om
-                    break; 
->>>>>>> Stashed changes
+                    return; 
             }
 
         }
