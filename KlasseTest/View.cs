@@ -9,10 +9,11 @@ namespace KlasseTest
     public class View
     {
         int count;
-        public void DisplayMenu(Catalogue catalogue)
+        public void DisplayMenu(Catalogue catalogue) //Metode der viser hovedmenuen, tager Catalogue klassen som input
         {
             Console.Clear();
             Console.WriteLine("Welcome to the OOD-OOATool, Type the corresponding number, then press 'Enter'");
+<<<<<<< Updated upstream
             string input;
             while (true)
           
@@ -22,19 +23,33 @@ namespace KlasseTest
                Console.WriteLine("q - Quit"); 
                 input = Console.ReadLine();
                 if (input == "q") break; 
+=======
+            string input; //string variabel oprettes og gemmes i RAM, indeholder intet endnu
+            while (true) //while løkke som kører så længe man default case kører
+            {
+                Console.WriteLine("1 - Catalogue");
+                Console.WriteLine("2 - Guides");
+               Console.WriteLine("q - Quit");
+                input = Console.ReadLine(); //Brugerens input bliver lagt ind i 'input' variabelen
+                if (input == "q") break; //Hvis brugeren skriver "q" stopper programmet
+>>>>>>> Stashed changes
                 switch (input)
                 {
                     case "1":
-                        DisplayModels(catalogue);
+                        DisplayModels(catalogue); //Skriver brugeren "1" kaldes denne funktion som ligger inde i Catalogue klassen
                         break;
 
                     case "2":
-                        DisplayMethods(catalogue);
+                        DisplayMethods(catalogue); //Skriver brugeren "2" kaldes denne funktion
                         break;
 
                     default:
+<<<<<<< Updated upstream
                         Console.WriteLine("Invalid Input! Try Again");
                      
+=======
+                        Console.WriteLine("Invalid Input! Try Again"); //Hvis brugeren skriver noget andet end 1, 2 eller q får de denne besked og løkken bliver ved med at køre                       
+>>>>>>> Stashed changes
                         break;
                         
 
@@ -103,9 +118,9 @@ namespace KlasseTest
         }
 
 
-        public void DisplayMethods(Catalogue catalogue)
+        public void DisplayMethods(Catalogue catalogue) //Metode der viser de forskellige metoder, tager Catalogue klassen som input
         {
-            count++;
+            count++; //Ligger én oveni hver gang metoden bliver kaldt, tvinger brugeren til at taste "1"
             Console.Clear();
             Console.WriteLine("Liste over metoder");
             Console.WriteLine("1 - UML");
@@ -114,26 +129,26 @@ namespace KlasseTest
             Console.WriteLine("m for menu");
             if (count > 1)
             {
-                Console.WriteLine("Invalid Input! Try 1 instead");
+                Console.WriteLine("Invalid Input! Try 1 instead"); //Fejlbesked hvis brugeren taster f.eks. "2"
             }
             string input = Console.ReadLine();
             if (input == "1")
             {
-                DisplayMethod(catalogue);
+                DisplayMethod(catalogue); //Kalder metoden hvis brugerens input er "1"
             }
             if (input == "m") 
             {
                 Console.Clear();
-                return; 
+                return; //Går tilbage til menuen når input er "m"
             }
             else
             {
-                DisplayMethods(catalogue);
+                DisplayMethods(catalogue); //Kører metoden igen når input ikke er "1" eller "m"
             }
 
         }
 
-        public void DisplayMethod(Catalogue catalogue)
+        public void DisplayMethod(Catalogue catalogue) //Metode der viser de forskellige metoder, tager Catalogue klassen som input
         {
             Console.Clear();
             Console.WriteLine("1 - Use Case");
@@ -143,12 +158,16 @@ namespace KlasseTest
             Console.WriteLine("5 - Sekvensdiagram");
             Console.WriteLine("");
             Console.WriteLine("r for return"); 
+<<<<<<< Updated upstream
             string input = Console.ReadLine();
+=======
+            string input = Console.ReadLine(); //Brugerens input bliver lagt ind i 'input' variabelen
+>>>>>>> Stashed changes
 
             switch (input)
             {
                 case "1":
-                    DisplayBlock(catalogue.modelList[0], catalogue);
+                    DisplayBlock(catalogue.modelList[0], catalogue); //Når brugerens input er mellem "1" og "5" kaldes den specifikke index i listen inde i DisplayBlock metoden
                     break;
 
                 case "2":
@@ -170,12 +189,21 @@ namespace KlasseTest
                 case "r":
                     Console.Clear();
                     DisplayMethods(catalogue);
+<<<<<<< Updated upstream
                     return; 
                     
 
                 default:
                     Console.WriteLine("Invalid Input! Try Again");
                     break;
+=======
+                    return; //Går tilbage til DisplayMethods metoden når brugerens input er "r"
+                    
+
+                default:
+                    Console.WriteLine("Invalid Input! Try Again"); //Giver en fejlbesked og starter om
+                    break; 
+>>>>>>> Stashed changes
             }
 
         }
