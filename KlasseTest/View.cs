@@ -85,7 +85,8 @@ namespace KlasseTest
             Console.WriteLine(block.Name);
             Console.WriteLine(block.Description);
             Console.WriteLine("");
-            Console.WriteLine("r for return");
+            Console.WriteLine("r for at gå tilbage til modeller");
+            Console.WriteLine("g for for at gå tilbage til UML");
 
             
             string input = Console.ReadLine();
@@ -96,6 +97,13 @@ namespace KlasseTest
                 DisplayModels(catalogue);
 
             }
+            if (input == "g")
+            {
+                Console.Clear();
+
+                DisplayMethod(catalogue);
+            }
+            
         }
 
 
